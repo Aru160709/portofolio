@@ -20,7 +20,7 @@ export default function About() {
     <section id="about" className="px-5 py-24">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-2 lg:items-center">
         <Reveal>
-          <Image src="/images/about.svg" alt="Ilustrasi workspace coding" width={800} height={640} unoptimized className="aspect-[5/4] w-full rounded-3xl border-2 border-ink object-cover" />
+          <Image src="/images/about.png" alt="Ilustrasi workspace coding" width={800} height={640} unoptimized className="aspect-[5/4] w-full rounded-3xl border-2 border-ink object-cover" />
         </Reveal>
         <Reveal delay={0.1}>
           <SectionHeading title="About me" />
