@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply bg-paper text-ink font-body antialiased overflow-x-hidden; }
+:focus-visible { outline: 3px solid #3A4DFF; outline-offset: 3px; border-radius: 6px; }
+.card { @apply border-2 border-ink bg-white shadow-[5px_5px_0_#1B1B3A] transition duration-200; }
+.card:hover { @apply -translate-x-0.5 -translate-y-0.5 shadow-[8px_8px_0_#3A4DFF]; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+@keyframes drift { 0%,100% { transform: translate3d(0,0,0) } 50% { transform: translate3d(30px,-24px,0) } }
+.orb { animation: drift 14s ease-in-out infinite; }
