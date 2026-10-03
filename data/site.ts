@@ -21,10 +21,11 @@ export const navItems = ["home", "about", "skills", "projects", "education", "co
 
 // demo/source: isi URL asli. Jika kosong, tombol tampil nonaktif (tidak ada link palsu).
 export const projects: Project[] = [
-  { title: "Balai Semut", description: "Website Balai Semut. (Ganti deskripsi ini di data/site.ts.)", image: "/images/project-1.svg", tech: [], demo: "", source: "" },
-  { title: "Karang Taruna Graha Laksana Tidar", description: "Website organisasi perumahan dengan informasi kegiatan, galeri, dan lokasi.", image: "/images/project-2.svg", tech: ["HTML", "CSS", "JavaScript", "Bootstrap"], demo: "", source: "" },
-  { title: "Aplikasi Face Recognition", description: "Aplikasi pengenalan wajah yang dibuat menggunakan Python.", image: "/images/project-3.svg", tech: ["Python"], demo: "", source: "" },
-  { title: "Aplikasi Chat", description: "Aplikasi chat yang dibuat menggunakan Dart.", image: "/images/project-4.svg", tech: ["Dart"], demo: "", source: "" },
+  { title: "Balai Semut", description: "Website Balai Semut. (Ganti deskripsi ini di data/site.ts.)", image: "/images/balai.png", tech: [], demo: "", source: "https://github.com/Aru160709/balai.semut" },
+  { title: "Karang Taruna Graha Laksana Tidar", description: "Website organisasi perumahan dengan informasi kegiatan, galeri, dan lokasi.", image: "/images/karang.png", tech: ["HTML", "CSS", "JavaScript", "Bootstrap"], demo: "", source: "https://github.com/Aru160709/karang-taruna-glt" },
+  { title: "Aplikasi Face Recognition", description: "Aplikasi pengenalan wajah yang dibuat menggunakan Python.", image: "/images/face.png", tech: ["Python"], demo: "", source: "https://github.com/Aru160709/face-recognition-project" },
+  { title: "Aplikasi Chat", description: "Aplikasi chat yang dibuat menggunakan Dart.", image: "/images/project-4.svg", tech: ["Dart"], demo: "", source: "https://github.com/Aru160709/projectchat" },
+  { title: "Aplikasi Kalkulator", description: "Aplikasi kalkulator yang dibuat menggunakan Dart.", image: "/images/project-5.svg", tech: ["Dart"], demo: "", source: "https://github.com/Aru160709/calculator-app" }
 ];
 
 export const skills: SkillGroup[] = [
