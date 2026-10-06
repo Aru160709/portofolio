@@ -19,7 +19,7 @@ export default function Contact() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <h2 className="font-display text-3xl font-semibold text-ink sm:text-4xl">Let&apos;s work together</h2>
-          <p className="mt-3 max-w-md text-mist">Punya ide website atau butuh bantuan frontend? Hubungi aku lewat salah satu kontak di bawah.</p>
+          <p className="mt-3 max-w-md text-mist">Have a website idea or need frontend help? Contact me via one of the methods below.</p>
         </Reveal>
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {links.map(({ icon: Icon, name, value, href }, i) => (

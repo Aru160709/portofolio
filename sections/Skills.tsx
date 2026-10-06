@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-sand px-5 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading title="Skills & technologies" text="Teknologi yang aku pelajari dan pakai untuk membuat website dan aplikasi." />
+        <SectionHeading title="Skills & technologies" text="Technologies I've learned and use to create websites and applications." />
         <div className="grid gap-6 md:grid-cols-2">
           {skills.map((g, i) => (
             <Reveal key={g.category} delay={i * 0.05}>

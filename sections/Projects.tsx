@@ -24,7 +24,7 @@ export default function Projects() {
                   <ul className="mt-4 flex flex-wrap gap-2">{p.tech.map((t) => <li key={t} className="rounded-full bg-volt/10 px-3 py-1 text-xs text-volt">{t}</li>)}</ul>
                   <div className="mt-5 flex flex-wrap gap-3">
                     {p.demo ? <a href={p.demo} target="_blank" rel="noreferrer" className={`${base} bg-volt text-snow hover:bg-ink`}><ExternalLink size={15} />Live Demo</a>
-                      : <span aria-disabled className={`${base} cursor-not-allowed bg-line text-mist`}><ExternalLink size={15} />Live Demo segera</span>}
+                      : <span aria-disabled className={`${base} cursor-not-allowed bg-line text-mist`}><ExternalLink size={15} />Live Demo Coming Soon</span>}
                     {p.source ? <a href={p.source} target="_blank" rel="noreferrer" className={`${base} border border-line text-ink hover:border-ink`}><Github size={15} />Source Code</a>
                       : <span aria-disabled className={`${base} cursor-not-allowed border border-line text-mist`}><Github size={15} />Source Code</span>}
                   </div>

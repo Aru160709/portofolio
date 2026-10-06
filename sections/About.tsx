@@ -10,9 +10,9 @@ const stats = [
   { label: "Years of Learning", value: profile.yearsLearning },
 ];
 const highlights = [
-  { icon: Code2, text: "Menulis kode yang rapi dan mudah dirawat" },
-  { icon: Sparkles, text: "Peduli pada tampilan dan kemudahan penggunaan" },
-  { icon: Lightbulb, text: "Cepat belajar teknologi baru" },
+  { icon: Code2, text: "Writing clean and maintainable code" },
+  { icon: Sparkles, text: "Caring about appearance and user experience" },
+  { icon: Lightbulb, text: "Quick to learn new technologies" },
 ];
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
         </Reveal>
         <Reveal delay={0.1}>
           <SectionHeading title="About me" />
-          <p className="-mt-4 text-mist">Saya membangun website modern, responsif, dan interaktif dengan menggabungkan teknologi dan desain yang menarik.</p>
+          <p className="-mt-4 text-mist">I build modern, responsive, and interactive websites by combining technology with engaging design.</p>
           <ul className="mt-6 space-y-3">
             {highlights.map(({ icon: Icon, text }) => (
               <li key={text} className="flex items-center gap-3"><Icon size={18} className="shrink-0 text-volt" />{text}</li>

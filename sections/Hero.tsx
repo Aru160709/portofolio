@@ -19,7 +19,7 @@ export default function Hero() {
           <p className="text-lg text-mist">Hello, I&apos;m</p>
           <h1 className="mt-1 font-display text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl xl:text-7xl">{profile.name}</h1>
           <p className="mt-4"><span className="inline-block -rotate-1 rounded-lg border-2 border-ink bg-sun px-3 py-1 font-display text-xl font-semibold text-ink sm:text-2xl">{profile.role}</span></p>
-          <p className="mt-5 max-w-lg text-mist">Developer yang tertarik membangun website modern, responsif, dan interaktif.</p>
+          <p className="mt-5 max-w-lg text-mist">Developers interested in building modern, responsive, and interactive websites.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#projects" className="rounded-full bg-volt px-6 py-3 font-medium text-snow transition hover:-translate-y-0.5 hover:bg-ink">Explore My Work</a>
             <a href="#contact" className="rounded-full border-2 border-ink px-6 py-3 font-medium text-ink transition hover:-translate-y-0.5 hover:border-ink">Contact Me</a>
